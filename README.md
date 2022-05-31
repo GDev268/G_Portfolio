@@ -11,7 +11,7 @@ I'm currently working:
      
     Working as a 3D Artist and Programmer
 
-  ![My Remote Image](https://m.gjcdn.net/game-header/1800/646277-crop0_300_1920_780-tss473a9-v4.webp)
+  ![My Remote Image](art/1.png)
 
 ## HaxeFlixel
 
@@ -20,11 +20,11 @@ I'm currently working:
      
     Working as a Programmer
 
-  ![My Remote Image](https://github.com/GDev28/FNF-TestZone/blob/master/art/unknown.png?raw=true)
+  ![My Remote Image](art/2.png)
 
    - VS.Dokito: FNF Mod
 
      
     Working as a Programmer
 
-  ![My Remote Image](https://github.com/GDev28/FNF-VS.Dokito/blob/Main/art/unknown.png?raw=true)
+  ![My Remote Image](art/3.png)
