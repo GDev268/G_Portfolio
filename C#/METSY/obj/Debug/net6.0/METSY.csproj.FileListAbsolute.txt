@@ -1,0 +1,15 @@
+D:\Código_Jogos\Portefólio\C#\METSY\bin\Debug\net6.0\METSY.exe
+D:\Código_Jogos\Portefólio\C#\METSY\bin\Debug\net6.0\METSY.deps.json
+D:\Código_Jogos\Portefólio\C#\METSY\bin\Debug\net6.0\METSY.runtimeconfig.json
+D:\Código_Jogos\Portefólio\C#\METSY\bin\Debug\net6.0\METSY.dll
+D:\Código_Jogos\Portefólio\C#\METSY\bin\Debug\net6.0\METSY.pdb
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.csproj.AssemblyReference.cache
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.AssemblyInfoInputs.cache
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.AssemblyInfo.cs
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.csproj.CoreCompileInputs.cache
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.dll
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\refint\METSY.dll
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.pdb
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\METSY.genruntimeconfig.cache
+D:\Código_Jogos\Portefólio\C#\METSY\obj\Debug\net6.0\ref\METSY.dll
