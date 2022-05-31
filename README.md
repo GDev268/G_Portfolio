@@ -27,4 +27,4 @@ I'm currently working:
      
     Working as a Programmer
 
-  ![My Remote Image](art/3.pn)
+  ![My Remote Image](art/3.png)
