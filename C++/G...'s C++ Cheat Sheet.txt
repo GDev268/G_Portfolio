@@ -1,0 +1,319 @@
+G...'s C++ Cheat Sheet
+This was done just for the purpose of memorizing all the c++ language code elements
+NOTE: Everything must include '#include <iostream>' package
+
+=========================================================================================================================
+
+	Print single line function
+
+	std::cout << "Print test" << '\n';
+
+=========================================================================================================================
+
+	Variables
+
+	//Integer (Whole Numbers)
+
+	int x = 7;
+	int age = 15;
+
+	//Double (For decimal numbers)
+
+	double y1 = 852.525;
+	double y2 = 424;
+
+	//char (For Single Characters)
+	char letter = 'A';
+	char sign = '$';
+
+	//Bool (True and False)
+	bool alive = true;
+	bool gamer = false;
+
+	//string (Whole words/texts)
+
+	std::string name = "Gabriel";
+	std::string hobby = "Programmer";
+
+=========================================================================================================================
+
+	Arithmetic operators
+	
+	int test = 100;
+
+	//simple plus,minus,plus,divide
+	test = test + 1;
+	test = test - 1;
+	test = test * 1;
+	test = test / 2;
+
+	//simplified plus and minus (Only adds and subtracts 1)
+	test++;
+	test--;
+
+	//simplified plus,minus,plus,divide (Can add,subtract,multiply and divide with any number)
+	test += 42;
+	test -= 425;
+	test *= 4;
+	test /= 4252;
+
+	//Divided product
+	int remainder = test % 2;
+
+	//Math calculation
+	int math = 252 + 42 / 5 * 42;
+
+=========================================================================================================================
+
+	User Input
+	
+	NOTE: MUST INCLUDE THE '#include <string>' package
+
+	//std::string name;
+	int age;
+
+	//Get all input line to a string with white spaces 
+	std::cout << "What's your name?: ";
+	std::getline(std::cin >> std::ws, name);
+	std::cout << '\n';
+
+	//Get a int from the input
+	std::cout << "What's your age?: ";
+	std::cin >> age;
+	std::cout << '\n';
+
+	//Print all the user input
+	std::cout << "Welcome " << name << '\n';;
+	std::cout << "You have " << age << " years old." << '\n';
+
+=========================================================================================================================
+	
+	Math Functions
+	NOTE: MUST INCLUDE THE '#include <cmath>' package
+
+	double x = 3.14;
+	double y = 4;
+	double z = 0;
+
+	//Get maximumn number
+
+	z = std::max(x, y);
+
+	//Get minimun number
+
+	z = std::min(x, y);
+
+	//Get the power of exponents
+
+	z = pow(3, 4);
+
+	//Get the square root
+
+	z = std::sqrt(9);
+
+	//Get the absolute value
+
+	z = abs(-52);
+
+	//Get rounded numbers(normal,upper,lower)
+
+	z = round(x);
+
+	z = ceil(x);
+
+	z = floor(x);
+
+	//Print Test
+
+	std::cout << z;
+
+=========================================================================================================================
+
+	Hypotenuse calculator
+
+	double a;
+	double b;
+	double c;
+
+	std::cout << "Hypotenuse calculator || ";
+	std::cout << "Made by: G..." << '\n';
+	std::cout << "Enter the side A of the triangle: ";
+	std::cin >> a;
+	std::cout << "Enter the side B of the triangle: ";
+	std::cin >> b;
+
+	a = std::pow(a, 2);
+	b = std::pow(b, 2);
+
+	c = sqrt(a + b);
+	c = round(c * 100) / 100;
+
+	std::cout << "The side C of the triangle is: " << c << '\n';
+
+=========================================================================================================================
+
+	If Statements
+
+	int age;
+
+	std::cout << "Enter your age: ";
+	std::cin >> age;
+
+	if (age > 100) {
+
+		std::cout << "You're to old!";
+	}
+	if (age >= 18 && age <= 60) {
+
+		std::cout << "Welcome to the zone!";
+	}
+	else if (age == 0) {
+
+		std::cout << "You aren't even alive bro.";
+	}
+	else {
+
+		std::cout << "You can't enter here";
+	}
+
+=========================================================================================================================
+
+    Switch Statements
+
+	int main() {
+	int num1;
+	int num2;
+	char rOperator;
+	int result;
+
+
+	std::cout << "C++ Calculator \n";
+	std::cout << "Enter the first number: ";
+	std::cin >> num1;
+	std::cout << "Enter the second number: ";
+	std::cin >> num2;
+	std::cout << "Enter the operator between (+,-,*,/): ";
+	std::cin >> rOperator;
+
+	switch(rOperator){
+
+		case '+':
+			result = num1 + num2;
+			std::cout << "Your result is: " << result;
+			break;
+		case '-':
+			result = num1 - num2;
+			std::cout << "Your result is: " << result;
+			break;
+		case '*':
+			result = num1 * num2;
+			std::cout << "Your result is: " << result;
+			break;
+		case '/':
+			result = num1 / num2;
+			td::cout << "Your result is: " << result;
+			break;
+		default:
+			std::cout << "INPUT ERROR!";
+			break;
+	}
+
+=========================================================================================================================
+
+    Ternary operator
+
+    int grade = 5;
+
+    grade >= 50 ? std::cout << "You pass!" : std::cout << "You failed!";
+
+    int number = 8;
+
+    number % 2 ? std::cout << "ODD" : std::cout << "EVEN";
+    
+    bool hungry = true;
+
+    hungry == true ? std::cout << "Is hungry" : std::cout << "Isn't hungry";
+
+=========================================================================================================================
+
+    Logical operators
+
+    && - AND
+    || - OR
+    ! - NOT
+
+    int temperature;
+    bool sunny = true;
+
+    std::cout << "Enter the temperature: ";
+    std::cin >> temperature;
+
+    if(temperature <= 0 || temperature >= 30){
+
+        std::cout << "The weather is bad! \n";
+    }
+    else{
+
+        std::cout << "The weather is good! \n";
+    }
+
+    if(!sunny){
+        std::cout << "There is no sun outside! \n";
+
+    }
+    else{
+
+       std::cout << "It's sunny outside! \n"; 
+    }
+
+
+=========================================================================================================================
+
+	String Methods
+
+	NOTE: MUST INCLUDE THE '#include <string>' package
+
+	std::string name;
+    std::string placeholder;
+
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, name);
+
+    if(name.length() > 12){
+
+        std::cout << "Your name can't have more than 12 characters" << '\n';
+
+    }
+    else if(name.length() < 12 && name.length() > 0){
+ 
+        std::cout << "Welcome " << name << "!" << '\n';
+    }
+    else if(name.empty()){
+
+        std::cout << "You didn't put your name!" << '\n';
+    }
+
+    placeholder = name;
+    name.clear();
+
+    std::cout << "Welcome" << name << '\n';
+
+    name.append(placeholder);
+    name.append("@gmail.com");
+
+    std::cout << "Your email is: " << name << '\n';
+
+    std::cout << "Your first character is: " << name.at(0) << '\n';
+
+    name = placeholder;
+    name.insert(0, "@");
+
+    std::cout << "Your twitter user is: " << name << '\n';
+
+    name = placeholder;
+    placeholder = name.at(0);
+
+    std::cout << "The position of the first letter of your name is in: " << name.find(placeholder) << '\n';
+    std::cout << "Your name without the first three letters is: " << name.erase(0, 3) << '\n';
+
+=========================================================================================================================

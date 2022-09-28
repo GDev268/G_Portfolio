@@ -1,0 +1,47 @@
+======================================================================================================================
+
+01 - Hello World!
+
+//One line comment
+
+/*Multiple line 
+comment */
+
+- Normal print
+println!("Hello World");
+
+-Formatted print (PAIN)
+println("Hello {}", you var);
+
+
+=====================================================================================================================
+
+02 - Variables
+
+fn main(){
+    // Integer ("i32")
+    let _integer_number:i32 = 3242085;
+    
+    // Float ("f64")
+    let _float_number:f64 = 985925.5252;
+
+    // Char ("char")
+    let _char_letter:char = 'e';
+
+    //Bool
+    let _bool_value:bool = false;
+
+    //Tuple ("This looks like a true trash")
+    let _tuple = (0,"hello",true,'e');
+
+    //Array ("Have a fixed index (FUCKING HELL)")
+    let _array:[i32;5] = [1,2,3,4,5];
+
+    println!("number:{}\nfloat:{}\nchar:{}\nbool:{}", _integer_number,_float_number,_char_letter,_bool_value);
+    println!("Tuple:{:?}\nTuple Element:{}\nArray:{:?}\nTuple Element:{}",_tuple,_tuple.1,_array,_array[1]);
+}
+
+======================================================================================================================
+
+03 - Custom Types
+
