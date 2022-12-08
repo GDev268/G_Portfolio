@@ -128,3 +128,34 @@
             println!("{i}-{j}");
         }
     }
+
+======================================================================================================================
+
+05 - Ownership
+
+    fn main() {
+        //Ownership
+
+        let mut num1:Vec<i64> = vec![52,25,64,32,64,3,64]; //Normal vector
+        let mut num2:Vec<i64> = num1; //Borrowed vector from vector 'num1
+
+        //Copying
+        let num3:i32 = 55694; // Normal variable
+        let mut num4:i32 = num3; //Copied variable from the variable 'num3'
+
+        num4 = doubleAndIncrease(num4, 10);
+        println!("{num4}");
+    }
+
+
+
+    fn doubleAndIncrease(mut num:i32,increment:i32) -> i32 {
+
+        num += increment;
+        return num * 2;
+    }
+
+======================================================================================================================
+
+    06 - Referencing and Borrowing
+

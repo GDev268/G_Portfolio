@@ -1,12 +1,15 @@
 fn main() {
-    let mut v:Vec<i32> = vec![1,2,3,4,5];
-    let mut v2:Vec<i32> = vec![0;10];
+    //Borrowing and Ownership
 
-    println!("The third element on the vector is {:?}",v[2]);
+    let mut num1:Vec<i32> = Vec::new();
+    num1 = vectorLol(num1);
+    println!("{}",num1[0]);
+}
 
-    let mut shesh = v[2];
 
-    v.push(52);
 
-    println!("The sixth element on the vector is {:?}",v[5]);
+fn vectorLol(mut num:Vec<i32>) -> Vec<i32> {
+    num.push(1);
+
+    return num;
 }
